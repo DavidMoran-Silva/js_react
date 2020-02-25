@@ -8,15 +8,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-         My name is David. Im am going to master reactgit add
+         My name is David. Im am going to master react
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/DavidMoran-Silva"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Check me out!
         </a>
       </header>
     </div>
