@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-         My name is David. I am going to master reactgit add
+         My name is David. Im am going to master reactgit add
         </p>
         <a
           className="App-link"
