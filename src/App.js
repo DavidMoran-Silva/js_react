@@ -14,8 +14,18 @@ constructor(props){
        {title : 'Personal', path: '/personal'}
     ],
     home: { 
-    title: 'Be Relentless'
-    }
+    title: 'Creativity',
+    subTitle:'Best projects',
+    text: 'check it out'
+    },
+
+  details:{
+    title: 'detailss'
+  },
+  personal:{
+    title: 'Of me'
+  }
+
   }
 }
 
