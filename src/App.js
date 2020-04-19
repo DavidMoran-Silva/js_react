@@ -8,6 +8,14 @@ constructor(props){
   super(props)
   this.state = {
     title:"David Moran-Silva"
+    headerLinks: [
+      { title : 'Home', path: '/' },
+      { title : 'Details', path: '/details' },
+       {title : 'Personal', path: '/personal'}
+    ],
+    home: { 
+    title: 'Be Relentless'
+    }
   }
 }
 
