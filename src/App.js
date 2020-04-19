@@ -1,26 +1,21 @@
 import React from 'react';
-import logo from './david.jpg'
 import './App.css';
 
-function App() {
+class App extends React.Component{
+//convert app.js into a class base comp bc using state
+
+constructor(props){
+  super(props)
+  this.state = {
+    title:"David Moran-Silva"
+  }
+}
+
+  render(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         My name is David-MoranSilva. I am going to master react!
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/DavidMoran-Silva"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Check me out!! just checking to 
-        </a>
-      </header>
-    </div>
-  );
+     <div>Welcome Hello </div>
+    );
+  }
 }
 
 export default App;
