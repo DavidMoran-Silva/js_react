@@ -7,3 +7,5 @@ function HomePage(props){
     <p>This Home works</p>
     );
 }
+
+export default HomePage;
