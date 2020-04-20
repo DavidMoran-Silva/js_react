@@ -2,6 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import resume from "../Assets/Resume.pdf";
 
 function Footer() {
 
@@ -11,6 +12,9 @@ function Footer() {
                <Row className="border-top justify-content-between p-3">
                     <Col className="p-0" md={3} sm={12}>
                         David Moran-Silva
+                    </Col>
+                    <Col className="p-0" md={3}>
+                        <a href={resume} download="David Moran Silva - resume"><button>download resume</button></a>
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
                         This site was made by David Moran-Silva
