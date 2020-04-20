@@ -2,9 +2,9 @@ import React from 'react';
 
 import Card from '../components/Card';
 
-import devgrub from '../assets/images/devgrub.png';
-import youtube from '../assets/images/youtube.png';
-import evverest from '../assets/images/evverest.png';
+//import WIN_20190202_10_36_33_Pro from '../assets/images/WIN_20190202_10_36_33_Pro.jpg';
+//import youtube from '../assets/images/youtube.png';
+//import evverest from '../assets/images/evverest.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
@@ -15,28 +15,28 @@ class Carousel extends React.Component {
         this.state = {
             items: [
                 {
-                    id: 0,
-                    title: 'Dev Grub',
-                    subTitle: 'developers',
-                    imgSrc: devgrub,
-                    link: 'https://google.com',
-                    selected: false
-                },
-                {
-                    id: 1,
-                    title: 'David Moran-Silva',
-                    subTitle: 'YouTube',
-                    imgSrc: youtube,
-                    link: 'https://www.instagram.com',
-                    selected: false
-                },
-                {
-                    id: 2,
-                    title: 'Evverest',
-                    subTitle: 'social network',
-                    imgSrc: evverest,
-                    link: 'https://Facebook.com',
-                    selected: false
+                //     id: 0,
+                //     title: 'WIN_20190202_10_36_33_Pro',
+                //     subTitle: 'developers',
+                //     //imgSrc: WIN_20190202_10_36_33_Pro.jpg,
+                //     link: 'https://google.com',
+                //     selected: false
+                // },
+                // {
+                //     id: 1,
+                //     title: 'David Moran-Silva',
+                //     subTitle: 'YouTube',
+                //     //imgSrc: WIN_20190202_10_36_33_Pro.jpg,
+                //     link: 'https://www.instagram.com',
+                //     selected: false
+                // },
+                // {
+                //     id: 2,
+                //     title: 'Evverest',
+                //     subTitle: 'social network',
+                //    // imgSrc: WIN_20190202_10_36_33_Pro.jpg,
+                //     link: 'https://Facebook.com',
+                //     selected: false
                 },
             ]
         }
